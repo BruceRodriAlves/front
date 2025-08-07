@@ -1,4 +1,5 @@
 * {
+    color: white;
     padding: 0;
     color: 333333;
 }
@@ -46,6 +47,20 @@ nav a:hover {
 
 main {
     padding: 10px;
+    border-radius: 20px;
+    margin-top: 0px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+div img {
+       display: flex;
+      border-radius: 5%;
+      box-shadow: 1px 1px 10px black;;
+      width: 300px;
 }
 
 section {
@@ -76,7 +91,46 @@ footer {
       text-align: center;
       padding: 10px 0;
       margin-top: 20px;
+}
 
+.comidas-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 1em;
+  color: #333;
+  line-height: 1.4;
+}
+
+.card span {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #6820db;
 }
 
 .footer-container {
